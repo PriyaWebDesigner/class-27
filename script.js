@@ -11,6 +11,10 @@
     console.log('Hello World!!');
   }
 
+  for(i=1; i<=5; i++){
+    console.log("Hello Everyone");
+  }
+
 //   Example-2 check the position of the numbers
   let number = [6, 5, 8, 4, 5, 5, 8, 5, 7, 5, 7, 38, 35, 68,48];
   let element = number.length;
@@ -29,6 +33,13 @@
 //   i=6;
 //   i=7;
 //   i=8;
+
+let marks2 = [3,45,6,24,67,68,89,90];
+let element4 = marks2.length;
+
+for(i=0; i<element4; i++){
+  console.log('The Marks is= '+marks2[i])
+}
 
 // Example-3 Check numbers are odd and even
 let marks = [6, 5, 8, 4, 5, 5, 8, 5, 7, 5, 7, 38, 35, 68,48];
